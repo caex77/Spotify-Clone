@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext } from 'react'
-import { songsData } from '../assets/frontend-assets/assets'
+import { songsData } from '../../assets/frontend-assets/assets'
 
 const PlayerContext = createContext()
 

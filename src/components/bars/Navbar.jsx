@@ -1,7 +1,7 @@
 import {React, useState} from 'react'
 import {Link, useNavigate} from 'react-router-dom'
-import {assets} from '../assets/frontend-assets/assets'
-import { useHistoryStack } from './useHistoryStacks'
+import {assets} from '../../assets/frontend-assets/assets'
+import { useHistoryStack } from '../useHistoryStacks'
 
 const Navbar = () => {
     const navigate = useNavigate()

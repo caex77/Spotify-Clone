@@ -1,5 +1,5 @@
 import  {React, useState} from 'react'
-import {assets} from '../assets/frontend-assets/assets'
+import {assets} from '../../assets/frontend-assets/assets'
 import {ArrowLeftToLine, ArrowRightToLine} from 'lucide-react'
 
 const Leftbar = () => {
@@ -42,7 +42,7 @@ const Leftbar = () => {
                 <div className="p-4 bg-[#242424] rounded flex flex-col gap-2 item-start justify-start mt-4">
                     <h1>Create your first playlist</h1>
                     <p className="text-gray-400">Get started by creating your first playlist</p>
-                    <button className="px-3 py-2 bg-[#1DB954] rounded-full text-black font-bold cursor-pointer mt-3">Create Playlist</button>
+                    <button className="px-3 py-2 bg-[#800020] rounded-full text-black font-bold cursor-pointer mt-3">Create Playlist</button>
                 </div>
             )}
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import {useParams} from 'react-router-dom'
-import {playlistsData, artistsData} from '../assets/frontend-assets/assets'
-import ScrollingText from './ScrollingText'
+import {playlistsData, artistsData} from '../../assets/frontend-assets/assets'
+import ScrollingText from '../ScrollingText'
 
 const DisplayAlbum = () => {
   const {id} = useParams()

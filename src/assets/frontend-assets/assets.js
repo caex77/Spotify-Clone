@@ -14,6 +14,7 @@ import speaker_icon from './speaker.png'
 import stack_icon from './stack.png'
 import zoom_icon from './zoom.png'
 import plus_icon from './plus.png'
+import more_icon from './more.png'
 import arrow_icon from './arrow.png'
 import mini_player_icon from './mini-player.png'
 import queue_icon from './queue.png'
@@ -67,6 +68,7 @@ export const assets = {
     stack_icon,
     zoom_icon,
     plus_icon,
+    more_icon,
     arrow_icon,
     mini_player_icon,
     volume_icon,
@@ -83,6 +85,7 @@ export const albumsData = [
         id:0,
         name: "In Rainbows",
         image: InRainbows,
+        year: 2007,
         desc:"Radiohead",
         artistId: 0,
         type:"Album",
@@ -93,6 +96,7 @@ export const albumsData = [
         id:1,
         name: "Cry",
         image: CigarettesAfterSex,
+        year: 2017,
         desc:"Cigarettes After Sex",
         artistId: 1,
         type:"Album",
@@ -103,6 +107,7 @@ export const albumsData = [
         id:2,
         name: "Desire Unleash",
         image: DesireUnleash,
+        year: 2025,
         desc:"Enhypen",
         artistId: 2,
         type:"Album",
@@ -113,6 +118,7 @@ export const albumsData = [
         id:3,
         name: "Glamour",
         image: Glamour,
+        year: 2025,
         desc:"Westwood",
         artistId: 3,
         type:"Album",
@@ -123,6 +129,7 @@ export const albumsData = [
         id:4,
         name: "Yin & Yang",
         image: YinYang,
+        year: 2026,
         desc:"Sadder Days",
         artistId: 4,
         type:"Album",

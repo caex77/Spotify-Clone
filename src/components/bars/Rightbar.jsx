@@ -1,9 +1,9 @@
 import {React, useState} from 'react'
 import {useNavigate} from 'react-router-dom'
-import {assets, albumsData, playlistsData} from '../assets/frontend-assets/assets'
+import {assets, albumsData, playlistsData} from '../../assets/frontend-assets/assets'
 import {ArrowLeftToLine, ArrowRightToLine, Ellipsis} from 'lucide-react'
-import ScrollingText from './ScrollingText'
-import {usePlayer} from './PlayerContext'
+import ScrollingText from '../ScrollingText'
+import {usePlayer} from '../player/PlayerContext'
 
 const Rightbar = () => {
     const [isExpanded, setIsExpanded] = useState(false);

@@ -1,9 +1,9 @@
 import React from 'react'
 import DisplayNavbar from './DisplayNavbar'
-import {albumsData,  playlistsData, songsData} from '../assets/frontend-assets/assets'
-import AlbumItem from './AlbumItem'
-import SongItem from './SongItem'
-import PlaylistItem from './PlaylistItem'
+import {albumsData,  playlistsData, songsData} from '../../assets/frontend-assets/assets'
+import AlbumItem from '../item/AlbumItem'
+import SongItem from '../item/SongItem'
+import PlaylistItem from '../item/PlaylistItem'
 
 const DisplayHome = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import {assets} from '../assets/frontend-assets/assets'
+import {assets} from '../../assets/frontend-assets/assets'
 import {usePlayer} from './PlayerContext'
 
 const Player = () => {
